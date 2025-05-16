@@ -1,0 +1,24 @@
+[project]
+name = "musl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "clang-format>=20.1.0",
+    "codebleu>=0.7.0",
+    "deepspeed>=0.16.4",
+    "evaluate>=0.4.3",
+    "gcovr>=8.3",
+    "ipykernel>=6.29.5",
+    "llamafactory==0.9.2",
+    "loguru>=0.7.3",
+    "nvidia-cuda-nvcc-cu12>=12.8.93",
+    "openai>=1.66.3",
+    "openpyxl>=3.1.5",
+    "pip>=25.1.1",
+    "swanlab>=0.5.7",
+    "tenacity>=9.0.0",
+    "tree-sitter-c==0.21.0",
+    "vllm>=0.7.3",
+]
